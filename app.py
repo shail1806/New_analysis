@@ -15,6 +15,7 @@ from sklearn.naive_bayes import MultinomialNB
 
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 @st.cache_resource
 def load_model():
